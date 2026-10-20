@@ -1,0 +1,35 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]          # se ejecuta en cada push a main
+
+env:
+  REGION: us-east-1
+  NOMBRE: controlm-dev        # repositorio ECR, cluster y servicio
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4                 # baja tu código
+
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.REGION }}
+
+      - id: ecr
+        uses: aws-actions/amazon-ecr-login@v2     # docker login a ECR
+
+      - name: Build y push de la imagen
+        run: |
+          IMG=${{ steps.ecr.outputs.registry }}/$NOMBRE
+          docker build -t $IMG:latest -t $IMG:${{ github.sha }} .
+          docker push --all-tags $IMG
+
+      - name: Desplegar en ECS
+        run: |
+          aws ecs update-service --cluster $NOMBRE --service $NOMBRE --force-new-deployment
+          aws ecs wait services-stable --cluster $NOMBRE --services $NOMBRE
