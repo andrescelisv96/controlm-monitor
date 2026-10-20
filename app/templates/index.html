@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Monitor Control-M</title>
+<style>
+  body { font-family: sans-serif; margin: 2rem; }
+  textarea { width: 100%; height: 200px; font-family: monospace; }
+  .alta { background: #fdd; } .media { background: #ffd; } .baja { background: #dfd; }
+  td, th { padding: 6px; border-bottom: 1px solid #ddd; text-align: left; }
+  button { padding: 8px 16px; font-size: 1rem; cursor: pointer; }
+  button:disabled { opacity: .6; cursor: wait; }
+
+  #cargando { display: none; align-items: center; gap: 12px; margin: 1rem 0;
+              padding: 12px; background: #eef4ff; border-radius: 8px; }
+  .spinner { width: 24px; height: 24px; border: 3px solid #cdd9f5;
+             border-top-color: #3366cc; border-radius: 50%;
+             animation: girar 0.8s linear infinite; }
+  @keyframes girar { to { transform: rotate(360deg); } }
+</style></head>
+<body>
+  <h1>Monitor Control-M</h1>
+  <form id="form" method="post" action="/ui/diagnostico">
+    <textarea name="salida" placeholder="Pega aquí la salida de Control-M" required></textarea>
+    <button id="btn" type="submit">Diagnosticar</button>
+  </form>
+
+  <div id="cargando">
+    <div class="spinner"></div>
+    <span>Analizando con el modelo... <b id="seg">0</b> s</span>
+  </div>
+
+  <div id="resultados">
+  {% if diag %}
+    <h2>Salud: {{ diag.salud_general }}</h2>
+    <p>{{ diag.resumen }}</p>
+    <table>
+      <tr><th>Job</th><th>Tipo</th><th>Severidad</th><th>Acción sugerida</th></tr>
+      {% for p in diag.problemas %}
+      <tr class="{{ p.severidad }}">
+        <td>{{ p.job }}</td><td>{{ p.tipo }}</td><td>{{ p.severidad }}</td><td>{{ p.accion_sugerida }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  {% endif %}
+  </div>
+
+  <h2>Jobs que más fallan</h2>
+  <ul>{% for j in top %}<li>{{ j.job }}: {{ j.veces }} veces ({{ j.altas }} altas)</li>{% endfor %}</ul>
+
+<script>
+  document.getElementById("form").addEventListener("submit", () => {
+    const btn = document.getElementById("btn");
+    btn.disabled = true;
+    btn.textContent = "Diagnosticando...";
+    document.getElementById("cargando").style.display = "flex";
+    document.getElementById("resultados").style.opacity = ".3";
+    let s = 0;
+    setInterval(() => document.getElementById("seg").textContent = ++s, 1000);
+  });
+</script>
+</body></html>

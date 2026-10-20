@@ -1,0 +1,648 @@
+##### META modo=rapida ordenes=644 jobs=435 condiciones=2648 detalles=75 fecha=2026-10-16 17:09:24
+##### TABLA
+Application: RSFT-AR-ADA  SubApplication: *
+ORDERID  JOBNAME           TYPE  ODATE    STATE     STATUS FROMTIME UNTIL
+-------- ----------------- ----  -------  -------   ------ -------- -----
+0002clcr ATERCP0A00        CMD   20261013 Post pro NOTOK  0100           
+0002me3r ATERCP0A00        CMD   20261016 Wait Con        0100           
+0002fdwe ATERCP0A00        CMD   20261014 Post pro NOTOK  0100           
+0002it94 ATERCP0A00        CMD   20261015 Wait Con        0100           
+0002me44 ATERCP0A01        CMD   20261016 Wait Eve                       
+0002me47 ATERCP0A02        CMD   20261016 Wait Eve                       
+0002me4c ATERCP0A03        CMD   20261016 Wait Eve                       
+0002me4g ATERCP0A04        CMD   20261016 Wait Eve                       
+0002me4j ATERCP0A05        CMD   20261016 Wait Eve                 >     
+0002me4w ATERCP0A06        DMY   20261016 Wait Eve                       
+0002me51 ATERCP0A07        CMD   20261016 Wait Eve                       
+0002me57 ATERCP0A08        CMD   20261016 Wait Eve                 >     
+0002me5b ATERCP0A09        CMD   20261016 Wait Eve                 >     
+0002me5j ATERCP0A0A        CMD   20261016 Wait Eve                       
+0002me5n ATERCP0A0B        CMD   20261016 Wait Eve                       
+0002me5s ATERCP0A0C        DMY   20261016 Wait Eve                       
+0002me5y ATERCP0A0D        CMD   20261016 Wait Con                       
+0002fdyl ATERCP0A0D        CMD   20261014 Post pro NOTOK                 
+0002itbb ATERCP0A0D        CMD   20261015 Wait Con                       
+0002ckby ATERCP0A0D        CMD   20261013 Wait Con                       
+0002me64 ATERCP0A0E        CMD   20261016 Wait Eve                       
+0002me6w ATERCP0A0F        CMD   20261016 Wait Eve                       
+0002me6z ATERCP0A0G        CMD   20261016 Wait Eve                       
+0002me72 ATERCP0A0H        CMD   20261016 Wait Con                 >     
+0002itcf ATERCP0A0H        CMD   20261015 Wait Con                 >     
+0002fdzp ATERCP0A0H        CMD   20261014 Post pro NOTOK           >     
+0002ckdh ATERCP0A0H        CMD   20261013 Wait Con                 >     
+0002itbk ATERCP0A0I        CMD   20261015 Wait Con                       
+0002ckcd ATERCP0A0I        CMD   20261013 Wait Con                       
+0002fdyu ATERCP0A0I        CMD   20261014 Wait Con                       
+0002me67 ATERCP0A0I        CMD   20261016 Wait Con                       
+0002me77 ATERCP0A0J        CMD   20261016 Wait Eve                       
+0002me7b ATERCP0A0K        CMD   20261016 Wait Eve                       
+0002me7g ATERCP0A0L        CMD   20261016 Wait Eve                       
+0002me7i ATERCP0A0M        CMD   20261016 Wait Eve                       
+0002me7k ATERCP0A0N        CMD   20261016 Wait Eve                       
+0002me7m ATERCP0A0O        DMY   20261016 Wait Eve                       
+0002me7o ATERCP0A0P        CMD   20261016 Wait Eve                       
+0002me7q ATERCP0A0Q        CMD   20261016 Wait Eve                       
+0002me7s ATERCP0A0R        CMD   20261016 Wait Eve                       
+0002me7u ATERCP0A0S        CMD   20261016 Wait Eve                       
+0002me7w ATERCP0A0T        CMD   20261016 Wait Eve                       
+0002me86 ATERCP0A0U        DMY   20261016 Wait Eve                       
+0002me8a ATERCP0A0V        CMD   20261016 Wait Eve                 >     
+0002me8c ATERCP0A0W        CMD   20261016 Wait Eve                       
+0002me8h ATERCP0A0X        DMY   20261016 Wait Eve                       
+0002me8o ATERCP0A0Y        CMD   20261016 Wait Eve                       
+0002me8q ATERCP0A0Z        CMD   20261016 Wait Eve                       
+0002me8v ATERCP0A10        CMD   20261016 Wait Eve                       
+0002me93 ATERCP0A11        CMD   20261016 Wait Eve                 >     
+0002me97 ATERCP0A12        CMD   20261016 Wait Eve                 >     
+0002me9b ATERCP0A13        DMY   20261016 Wait Eve                       
+0002me9f ATERCP0A14        DMY   20261016 Wait Eve                       
+0002me9j ATERCP0A15        CMD   20261016 Wait Eve                       
+0002mdlp ATERCP0A15        CMD   20261015 Post pro OK                    
+0002me9m ATERCP0A16        CMD   20261016 Wait Eve                       
+0002me9p ATERCP0A17        DMY   20261016 Wait Eve                       
+0002fe2c ATERCP0A17        DMY   20261014 Wait Eve                       
+0002itf2 ATERCP0A17        DMY   20261015 Wait Eve                       
+0002me9s ATERCP0A18        DMY   20261016 Wait Eve                 >     
+0002me9w ATERCP0A19        DMY   20261016 Wait Eve                       
+0002me9z ATERCP0A1A        DMY   20261016 Wait Eve                       
+0002mea3 ATERCP0A1B        CMD   20261016 Wait Eve                       
+0002mea7 ATERCP0A1C        CMD   20261016 Wait Eve                       
+0002meb7 ATERCP0A1D        CMD   20261016 Post pro OK                    
+0002meba ATERCP0A1E        CMD   20261016 Wait Eve                       
+0002mebc ATERCP0A1F        CMD   20261016 Post pro OK                    
+0002mebf ATERCP0A1G        DMY   20261016 Wait Eve                 >     
+0002mebk ATERCP0A1H        CMD   20261016 Wait Eve                       
+0002mebn ATERCP0A1I        CMD   20261016 Wait Eve                       
+0002mebr ATERCP0A1J        CMD   20261016 Wait Eve                       
+0002mebw ATERCP0A1K        CMD   20261016 Wait Eve                       
+0002mebz ATERCP0A1L        CMD   20261016 Wait Eve                       
+0002mec3 ATERCP0A1M        CMD   20261016 Post pro OK                    
+0002mecb ATERCP0A1N        CMD   20261016 Post pro OK                    
+0002mecd ATERCP0A1O        CMD   20261016 Wait Eve                       
+0002mecf ATERCP0A1P        CMD   20261016 Wait Eve                       
+0002mech ATERCP0A1Q        CMD   20261016 Wait Eve                       
+0002mecl ATERCP0A1R        CMD   20261016 Wait Eve                       
+0002mecn ATERCP0A1S        CMD   20261016 Wait Eve                       
+0002mecp ATERCP0A1T        CMD   20261016 Wait Eve                       
+0002mect ATERCP0A1U        CMD   20261016 Wait Eve                       
+0002mecw ATERCP0A1V        CMD   20261016 Wait Eve                       
+0002med2 ATERCP0A1W        CMD   20261016 Wait Eve                       
+0002med6 ATERCP0A1X        CMD   20261016 Wait Eve                       
+0002meda ATERCP0A1Y        CMD   20261016 Wait Eve                       
+0002mede ATERCP0A1Z        CMD   20261016 Wait Eve                       
+0002medh ATERCP0A20        CMD   20261016 Wait Eve                       
+0002medm ATERCP0A21        CMD   20261016 Wait Eve                       
+0002medq ATERCP0A22        CMD   20261016 Wait Eve                       
+0002medt ATERCP0A23        DMY   20261016 Wait Eve                       
+0002itj7 ATERCP0A23        DMY   20261015 Wait Eve                       
+0002fe6g ATERCP0A23        DMY   20261014 Wait Eve                       
+0002fe6h ATERCP0A24        DMY   20261014 Wait Eve                       
+0002itj8 ATERCP0A24        DMY   20261015 Wait Eve                       
+0002medu ATERCP0A24        DMY   20261016 Wait Eve                       
+0002medv ATERCP0A25        CMD   20261016 Wait Eve                       
+0002mef7 ATERCP0A26        CMD   20261016 Post pro OK              >     
+0002mef4 ATERCP0A27        CMD   20261016 Wait Eve                       
+0002meez ATERCP0A28        CMD   20261016 Wait Eve                       
+0002meek ATERCP0A29        CMD   20261016 Wait Eve                       
+0002mee2 ATERCP0A2A        CMD   20261016 Wait Eve                       
+0002medx ATERCP0A2B        CMD   20261016 Wait Eve                       
+0002medy ATERCP0A2C        CMD   20261016 Wait Eve                       
+0002meei ATERCP0A2D        CMD   20261016 Wait Eve                 >     
+0002me61 ATERCP0A2E        CMD   20261016 Wait Eve                       
+0002me8e ATERCP0A2F        DMY   20261016 Wait Eve                       
+0002mee4 ATERCP0A2G        CMD   20261016 Wait Eve                 >     
+0002me6s ATERCP0A2H        CMD   20261016 Wait Eve                 >     
+0002me3t ATERCP0A2I        DMY   20261016 Wait Eve                 >     
+0002me42 ATERCP0A2J        DMY   20261016 Wait Eve                 >     
+0002me74 ATERCP0A2K        DMY   20261016 Wait Eve                 >     
+0002fdzr ATERCP0A2K        DMY   20261014 Wait Eve                 >     
+0002fe01 ATERCP0A2L        DMY   20261014 Wait Eve                 >     
+0002me7e ATERCP0A2L        DMY   20261016 Wait Eve                 >     
+0002itcr ATERCP0A2L        DMY   20261015 Wait Eve                 >     
+0002ckci ATERCP0A2M        CMD   20261013 Wait Con                 >     
+0002itbo ATERCP0A2M        CMD   20261015 Post pro OK              >     
+0002me6b ATERCP0A2M        CMD   20261016 Wait Con                 >      Deleted
+0002n019 ATERCP0A2M        CMD   20261016 Wait Eve                 >     
+0002mee8 ATERCP0A2N        CMD   20261016 Wait Eve                 >     
+0002me40 ATERCP0A2O        DMY   20261016 Wait Eve                 >     
+0002it9d ATERCP0A2O        DMY   20261015 Wait Eve                 >     
+0002fdwn ATERCP0A2O        DMY   20261014 Wait Eve                 >     
+0002fe1e ATERCP0A2P        DMY   20261014 Wait Eve                 >     
+0002ite4 ATERCP0A2P        DMY   20261015 Wait Eve                 >     
+0002me8r ATERCP0A2P        DMY   20261016 Wait Eve                 >     
+0002me6g ATERCP0A2Q        CMD   20261016 Wait Eve                 >     
+0002meev ATERCP0A2R        DMY   20261016 Wait Eve                 >     
+0002fe7i ATERCP0A2R        DMY   20261014 Wait Eve                 >     
+0002itk9 ATERCP0A2R        DMY   20261015 Wait Eve                 >     
+0002me6k ATERCP0A2S        CMD   20261016 Wait Eve                 >     
+0002meen ATERCP0A2T        DMY   20261016 Wait Eve                 >     
+0002fe7a ATERCP0A2T        DMY   20261014 Wait Eve                 >     
+0002itk1 ATERCP0A2T        DMY   20261015 Wait Eve                 >     
+0002me6p ATERCP0A2U        CMD   20261016 Wait Eve                 >     
+0002meep ATERCP0A2V        DMY   20261016 Wait Eve                 >     
+0002fe7c ATERCP0A2V        DMY   20261014 Wait Eve                 >     
+0002itk3 ATERCP0A2V        DMY   20261015 Wait Eve                 >     
+0002meer ATERCP0A2W        DMY   20261016 Wait Eve                 >     
+0002fe7e ATERCP0A2W        DMY   20261014 Wait Eve                 >     
+0002itk5 ATERCP0A2W        DMY   20261015 Wait Eve                 >     
+0002meet ATERCP0A2X        DMY   20261016 Wait Eve                 >     
+0002fe7g ATERCP0A2X        DMY   20261014 Wait Eve                 >     
+0002itk7 ATERCP0A2X        DMY   20261015 Wait Eve                 >     
+0002meec ATERCP0A2Y        CMD   20261016 Wait Eve                 >     
+0002meee ATERCP0A2Z        CMD   20261016 Wait Eve                 >     
+0002it98 ATERCP0A30        DMY   20261015 Wait Eve                 >     
+0002fdwi ATERCP0A30        DMY   20261014 Wait Eve                 >     
+0002me3v ATERCP0A30        DMY   20261016 Wait Eve                 >     
+0002meew ATERCP0A31        DMY   20261016 Wait Eve                       
+0002fe7j ATERCP0A31        DMY   20261014 Wait Eve                       
+0002itka ATERCP0A31        DMY   20261015 Wait Eve                       
+0002me4n ATERCP0A32        CMD   20261016 Wait Eve                 >     
+0002fe1m ATERCP0A33        CMD   20261014 Post pro NOTOK           >     
+0002itec ATERCP0A33        CMD   20261015 Wait Con                 >     
+0002me8z ATERCP0A33        CMD   20261016 Wait Con                 >     
+0002ckfu ATERCP0A33        CMD   20261013 Wait Con                 >     
+0002ckhs ATERCP0A34        CMD   20261013 Wait Eve                       
+0002fe4v ATERCP0A34        CMD   20261014 Wait Eve                       
+0002mec8 ATERCP0A34        CMD   20261016 Wait Eve                       
+0002ckkz ATERCP0A35        CMD   20261013 Wait Eve                       
+0002fdwb ATERCP0J00        CMD   20261014 Wait Eve                       
+0002me3o ATERCP0J00        CMD   20261016 Wait Eve                       
+0002clcm ATERCP0J00        CMD   20261013 Wait Eve                       
+0002it91 ATERCP0J00        CMD   20261015 Wait Eve                       
+0002me48 ATERCP0J01        CMD   20261016 Wait Eve                       
+0002me4e ATERCP0J02        CMD   20261016 Wait Eve                       
+0002cldv ATERCP0J02        CMD   20261013 Post pro NOTOK                 
+0002me4k ATERCP0J03        DMY   20261016 Wait Eve                 >     
+0002me4q ATERCP0J04        CMD   20261016 Wait Eve                       
+0002me4s ATERCP0J05        DMY   20261016 Wait Eve                       
+0002me4u ATERCP0J06        DMY   20261016 Wait Eve                       
+0002me4x ATERCP0J07        DMY   20261016 Wait Eve                       
+0002me4z ATERCP0J08        CMD   20261016 Wait Eve                       
+0002me58 ATERCP0J09        CMD   20261016 Wait Eve                 >     
+0002me5c ATERCP0J0A        CMD   20261016 Wait Eve                 >     
+0002clf4 ATERCP0J0A        CMD   20261013 Post pro NOTOK           >     
+0002me5k ATERCP0J0B        CMD   20261016 Wait Eve                       
+0002me5o ATERCP0J0C        CMD   20261016 Wait Eve                       
+0002me5t ATERCP0J0D        DMY   20261016 Wait Eve                       
+0002me6u ATERCP0J0E        CMD   20261016 Wait Eve                       
+0002me70 ATERCP0J0F        CMD   20261016 Wait Eve                       
+0002me78 ATERCP0J0G        CMD   20261016 Wait Eve                       
+0002me7c ATERCP0J0H        CMD   20261016 Wait Eve                       
+0002fdzz ATERCP0J0H        CMD   20261014 Post pro NOTOK                 
+0002clgs ATERCP0J0H        CMD   20261013 Post pro NOTOK                 
+0002me88 ATERCP0J0I        CMD   20261016 Wait Eve                 >     
+0002me8i ATERCP0J0J        DMY   20261016 Wait Eve                       
+0002me91 ATERCP0J0K        CMD   20261016 Wait Eve                 >     
+0002me95 ATERCP0J0L        CMD   20261016 Wait Eve                 >     
+0002me9t ATERCP0J0M        DMY   20261016 Wait Eve                 >     
+0002mea4 ATERCP0J0N        CMD   20261016 Wait Eve                       
+0002meaa ATERCP0J0O        CMD   20261016 Wait Eve                       
+0002meaj ATERCP0J0P        CMD   20261016 Wait Eve                       
+0002meal ATERCP0J0Q        CMD   20261016 Wait Eve                       
+0002mean ATERCP0J0R        CMD   20261016 Wait Eve                       
+0002meap ATERCP0J0S        CMD   20261016 Wait Eve                       
+0002meas ATERCP0J0T        CMD   20261016 Wait Eve                       
+0002meat ATERCP0J0U        CMD   20261016 Wait Eve                       
+0002meav ATERCP0J0V        CMD   20261016 Wait Eve                       
+0002meax ATERCP0J0W        CMD   20261016 Wait Eve                       
+0002meaz ATERCP0J0X        CMD   20261016 Wait Eve                       
+0002meb1 ATERCP0J0Y        CMD   20261016 Wait Eve                       
+0002meb8 ATERCP0J0Z        CMD   20261016 Wait Eve                       
+0002mebd ATERCP0J10        CMD   20261016 Post pro OK                    
+0002mebh ATERCP0J11        DMY   20261016 Wait Eve                 >     
+0002mebo ATERCP0J12        DMY   20261016 Wait Eve                       
+0002mebs ATERCP0J13        CMD   20261016 Wait Eve                       
+0002mebu ATERCP0J14        CMD   20261016 Wait Eve                       
+0002mec0 ATERCP0J15        CMD   20261016 Wait Con                       
+0002ithd ATERCP0J15        CMD   20261015 Post pro NOTOK                 
+0002clls ATERCP0J15        CMD   20261013 Post pro NOTOK                 
+0002fe4n ATERCP0J15        CMD   20261014 Post pro NOTOK                 
+0002clmc ATERCP0J16        CMD   20261013 Post pro NOTOK                 
+0002fe55 ATERCP0J16        CMD   20261014 Post pro NOTOK                 
+0002ithw ATERCP0J16        CMD   20261015 Post pro NOTOK                 
+0002meci ATERCP0J16        CMD   20261016 Wait Eve                       
+0002mecu ATERCP0J17        DMY   20261016 Wait Eve                       
+0002med7 ATERCP0J18        CMD   20261016 Wait Eve                       
+0002medi ATERCP0J19        CMD   20261016 Wait Eve                       
+0002medn ATERCP0J1A        CMD   20261016 Wait Eve                       
+0002medr ATERCP0J1B        CMD   20261016 Wait Eve                       
+0002mef8 ATERCP0J1C        DMY   20261016 Post pro OK              >     
+0002mefa ATERCP0J1D        CMD   20261016 Wait Eve                 >     
+0002mee0 ATERCP0J1E        CMD   20261016 Wait Eve                       
+0002me8k ATERCP0J1F        DMY   20261016 Wait Eve                       
+0002fe17 ATERCP0J1F        DMY   20261014 Wait Eve                       
+0002itdx ATERCP0J1F        DMY   20261015 Wait Eve                       
+0002me8m ATERCP0J1G        DMY   20261016 Wait Eve                       
+0002fe19 ATERCP0J1G        DMY   20261014 Wait Eve                       
+0002itdz ATERCP0J1G        DMY   20261015 Wait Eve                       
+0002mec4 ATERCP0J1H        DMY   20261016 Post pro OK                    
+0002mef0 ATERCP0J1I        DMY   20261016 Wait Eve                       
+0002mee5 ATERCP0J1J        CMD   20261016 Wait Eve                 >     
+0002me3n ATERCP0J1K        DMY   20261016 Wait Eve                       
+0002it9n ATERCP0J1L        CMD   20261015 Wait Eve                       
+0002fdwx ATERCP0J1L        CMD   20261014 Wait Eve                       
+0002me4a ATERCP0J1L        CMD   20261016 Wait Eve                       
+0002cldl ATERCP0J1L        CMD   20261013 Wait Eve                       
+0002clfo ATERCP0J1M        CMD   20261013 Wait Eve                       
+0002itbc ATERCP0J1M        CMD   20261015 Wait Eve                       
+0002fdym ATERCP0J1M        CMD   20261014 Wait Eve                       
+0002me5z ATERCP0J1M        CMD   20261016 Wait Eve                       
+0002me65 ATERCP0J1N        CMD   20261016 Wait Eve                       
+0002itbi ATERCP0J1N        CMD   20261015 Wait Eve                       
+0002fdys ATERCP0J1N        CMD   20261014 Wait Eve                       
+0002clft ATERCP0J1N        CMD   20261013 Wait Eve                       
+0002itdd ATERCP0J1O        DMY   20261015 Wait Eve                       
+0002fe0n ATERCP0J1O        DMY   20261014 Wait Eve                       
+0002me80 ATERCP0J1O        DMY   20261016 Wait Eve                       
+0002me84 ATERCP0J1P        DMY   20261016 Wait Eve                       
+0002fe0r ATERCP0J1P        DMY   20261014 Wait Eve                       
+0002itdh ATERCP0J1P        DMY   20261015 Wait Eve                       
+0002fe1z ATERCP0J1Q        DMY   20261014 Wait Eve                       
+0002itep ATERCP0J1Q        DMY   20261015 Wait Eve                       
+0002me9c ATERCP0J1Q        DMY   20261016 Wait Eve                       
+0002me9g ATERCP0J1R        DMY   20261016 Wait Eve                       
+0002itet ATERCP0J1R        DMY   20261015 Wait Eve                       
+0002fe23 ATERCP0J1R        DMY   20261014 Wait Eve                       
+0002itf0 ATERCP0J1S        DMY   20261015 Wait Eve                       
+0002me9n ATERCP0J1S        DMY   20261016 Wait Eve                       
+0002fe2a ATERCP0J1S        DMY   20261014 Wait Eve                       
+0002mea0 ATERCP0J1T        DMY   20261016 Wait Eve                       
+0002itfd ATERCP0J1T        DMY   20261015 Wait Eve                       
+0002fe2n ATERCP0J1T        DMY   20261014 Wait Eve                       
+0002meac ATERCP0J1U        CMD   20261016 Wait Eve                       
+0002cli6 ATERCP0J1U        CMD   20261013 Wait Eve                       
+0002mec6 ATERCP0J1V        DMY   20261016 Wait Eve                       
+0002fe4t ATERCP0J1V        DMY   20261014 Wait Eve                       
+0002ithj ATERCP0J1V        DMY   20261015 Wait Eve                       
+0002itib ATERCP0J1W        CMD   20261015 Wait Eve                       
+0002fe5k ATERCP0J1W        CMD   20261014 Wait Eve                       
+0002mecx ATERCP0J1W        CMD   20261016 Wait Eve                       
+0002clmw ATERCP0J1W        CMD   20261013 Wait Eve                       
+0002cln1 ATERCP0J1X        CMD   20261013 Wait Eve                       
+0002mecz ATERCP0J1X        CMD   20261016 Wait Eve                       
+0002itid ATERCP0J1X        CMD   20261015 Wait Eve                       
+0002fe5m ATERCP0J1X        CMD   20261014 Wait Eve                       
+0002medb ATERCP0J1Y        DMY   20261016 Wait Eve                       
+0002me69 ATERCP0J1Z        DMY   20261016 Wait Eve                 >     
+0002itbm ATERCP0J1Z        DMY   20261015 Post pro OK              >     
+0002clig ATERCP0J20        CMD   20261013 Wait Eve                       
+0002meah ATERCP0J20        CMD   20261016 Wait Eve                       
+0002mee9 ATERCP0J21        CMD   20261016 Wait Eve                 >     
+0002ite5 ATERCP0J22        CMD   20261015 Wait Eve                       
+0002clh2 ATERCP0J22        CMD   20261013 Wait Eve                       
+0002me8s ATERCP0J22        CMD   20261016 Wait Eve                       
+0002fe1f ATERCP0J22        CMD   20261014 Wait Eve                       
+0002cljz ATERCP0J23        CMD   20261013 Wait Eve                       
+0002meb3 ATERCP0J23        CMD   20261016 Wait Eve                       
+0002me6e ATERCP0J24        DMY   20261016 Wait Eve                 >     
+0002meae ATERCP0J25        DMY   20261016 Wait Eve                       
+0002me6i ATERCP0J26        DMY   20261016 Wait Eve                 >     
+0002me6n ATERCP0J27        DMY   20261016 Wait Eve                 >     
+0002meem ATERCP0J28        DMY   20261016 Wait Eve                       
+0002itk0 ATERCP0J28        DMY   20261015 Wait Eve                       
+0002fe79 ATERCP0J28        DMY   20261014 Wait Eve                       
+0002meef ATERCP0J29        DMY   20261016 Wait Eve                 >     
+0002me4o ATERCP0J2A        CMD   20261016 Wait Eve                 >     
+0002me8x ATERCP0J2B        CMD   20261016 Wait Eve                 >     
+0002itea ATERCP0J2B        CMD   20261015 Wait Eve                 >     
+0002clhc ATERCP0J2B        CMD   20261013 Wait Eve                 >     
+0002fe1k ATERCP0J2B        CMD   20261014 Wait Eve                 >     
+0002it9b ATERCP0S00        CMD   20261015 Wait Eve                       
+0002clcw ATERCP0S00        CMD   20261013 Wait Eve                       
+0002me3y ATERCP0S00        CMD   20261016 Wait Eve                       
+0002fdwl ATERCP0S00        CMD   20261014 Wait Eve                       
+0002clg3 ATERCP0S01        CMD   20261013 Wait Eve                 >     
+0002fdz8 ATERCP0S01        CMD   20261014 Wait Eve                 >     
+0002me6l ATERCP0S01        CMD   20261016 Wait Eve                 >     
+0002itby ATERCP0S01        CMD   20261015 Wait Eve                 >     
+0002me8t ATERCP0S02        CMD   20261016 Wait Eve                       
+0002mea5 ATERCP0S03        CMD   20261016 Wait Eve                       
+0002meb5 ATERCP0S04        CMD   20261016 Post pro OK                    
+0002mebi ATERCP0S05        DMY   20261016 Wait Eve                       
+0002mec9 ATERCP0S06        CMD   20261016 Post pro OK                    
+0002medc ATERCP0S07        CMD   20261016 Wait Eve                       
+0002meds ATERCP0S08        DMY   20261016 Wait Eve                       
+0002fe6f ATERCP0S08        DMY   20261014 Wait Eve                       
+0002itj6 ATERCP0S08        DMY   20261015 Wait Eve                       
+0002me45 ATERCP0S09        CMD   20261016 Wait Eve                       
+0002it9a ATERCP0S0A        DMY   20261015 Wait Eve                       
+0002fdwk ATERCP0S0A        DMY   20261014 Wait Eve                       
+0002me3x ATERCP0S0A        DMY   20261016 Wait Eve                       
+0002me4d ATERCP0S0B        CMD   20261016 Wait Eve                       
+0002cldq ATERCP0S0B        CMD   20261013 Wait Eve                       
+0002me4h ATERCP0S0C        DMY   20261016 Wait Eve                 >     
+0002me4p ATERCP0S0D        DMY   20261016 Wait Eve                       
+0002me4r ATERCP0S0E        DMY   20261016 Wait Eve                       
+0002me4t ATERCP0S0F        DMY   20261016 Wait Eve                       
+0002me4y ATERCP0S0G        CMD   20261016 Wait Eve                       
+0002me52 ATERCP0S0H        DMY   20261016 Wait Eve                 >     
+0002me53 ATERCP0S0I        CMD   20261016 Wait Eve                 >     
+0002me54 ATERCP0S0J        CMD   20261016 Wait Eve                 >     
+0002me55 ATERCP0S0K        CMD   20261016 Wait Eve                 >     
+0002me59 ATERCP0S0L        DMY   20261016 Wait Eve                 >     
+0002me5d ATERCP0S0M        DMY   20261016 Wait Eve                       
+0002me5e ATERCP0S0N        DMY   20261016 Wait Eve                       
+0002me5f ATERCP0S0O        DMY   20261016 Wait Eve                       
+0002me5g ATERCP0S0P        DMY   20261016 Wait Eve                       
+0002me5h ATERCP0S0Q        DMY   20261016 Wait Eve                       
+0002me5l ATERCP0S0R        DMY   20261016 Wait Eve                       
+0002me5p ATERCP0S0S        DMY   20261016 Wait Eve                       
+0002me5q ATERCP0S0T        DMY   20261016 Wait Eve                       
+0002me6x ATERCP0S0U        DMY   20261016 Wait Eve                       
+0002me6t ATERCP0S0V        DMY   20261016 Wait Eve                       
+0002me75 ATERCP0S0W        DMY   20261016 Wait Eve                       
+0002me79 ATERCP0S0X        DMY   20261016 Wait Eve                       
+0002fdzw ATERCP0S0X        DMY   20261014 Wait Eve                       
+0002me87 ATERCP0S0Y        DMY   20261016 Wait Eve                 >     
+0002me8f ATERCP0S0Z        DMY   20261016 Wait Eve                       
+0002me90 ATERCP0S10        DMY   20261016 Wait Eve                 >     
+0002me94 ATERCP0S11        DMY   20261016 Wait Eve                 >     
+0002me9q ATERCP0S12        DMY   20261016 Wait Eve                 >     
+0002mea1 ATERCP0S13        DMY   20261016 Wait Eve                       
+0002mea8 ATERCP0S14        DMY   20261016 Post pro OK                    
+0002mea9 ATERCP0S15        DMY   20261016 Wait Eve                       
+0002meaf ATERCP0S16        CMD   20261016 Wait Eve                 >     
+0002fe32 ATERCP0S16        CMD   20261014 Wait Eve                 >     
+0002itfs ATERCP0S16        CMD   20261015 Wait Eve                 >     
+0002clib ATERCP0S16        CMD   20261013 Wait Eve                 >     
+0002meai ATERCP0S17        DMY   20261016 Wait Eve                       
+0002meak ATERCP0S18        DMY   20261016 Wait Eve                       
+0002meam ATERCP0S19        DMY   20261016 Wait Eve                       
+0002meao ATERCP0S1A        DMY   20261016 Wait Eve                       
+0002meaq ATERCP0S1B        DMY   20261016 Wait Eve                 >     
+0002mear ATERCP0S1C        DMY   20261016 Wait Eve                       
+0002meau ATERCP0S1D        DMY   20261016 Wait Eve                       
+0002meaw ATERCP0S1E        DMY   20261016 Wait Eve                       
+0002meay ATERCP0S1F        DMY   20261016 Wait Eve                       
+0002meb0 ATERCP0S1G        DMY   20261016 Wait Eve                       
+0002mebg ATERCP0S1H        DMY   20261016 Wait Eve                 >     
+0002mebl ATERCP0S1I        DMY   20261016 Wait Eve                       
+0002mebp ATERCP0S1J        DMY   20261016 Wait Eve                       
+0002mebt ATERCP0S1K        DMY   20261016 Wait Eve                       
+0002mebx ATERCP0S1L        DMY   20261016 Wait Eve                       
+0002fe4k ATERCP0S1L        DMY   20261014 Wait Eve                       
+0002itha ATERCP0S1L        DMY   20261015 Wait Eve                       
+0002ithx ATERCP0S1M        DMY   20261015 Wait Eve                       
+0002fe56 ATERCP0S1M        DMY   20261014 Wait Eve                       
+0002mecj ATERCP0S1M        DMY   20261016 Wait Eve                       
+0002mecq ATERCP0S1N        DMY   20261016 Wait Eve                       
+0002mecr ATERCP0S1O        DMY   20261016 Wait Eve                       
+0002med3 ATERCP0S1P        DMY   20261016 Wait Eve                       
+0002med4 ATERCP0S1Q        DMY   20261016 Wait Eve                       
+0002medf ATERCP0S1R        DMY   20261016 Wait Eve                       
+0002medj ATERCP0S1S        DMY   20261016 Wait Eve                       
+0002medk ATERCP0S1T        DMY   20261016 Wait Eve                       
+0002medo ATERCP0S1U        DMY   20261016 Wait Eve                       
+0002mef9 ATERCP0S1V        DMY   20261016 Wait Eve                 >     
+0002medz ATERCP0S1W        DMY   20261016 Wait Eve                       
+0002me3p ATERCP0S1X        DMY   20261016 Wait Eve                       
+0002fdwc ATERCP0S1X        DMY   20261014 Wait Eve                       
+0002it92 ATERCP0S1X        DMY   20261015 Wait Eve                       
+0002me6q ATERCP0S1Y        CMD   20261016 Wait Eve                 >     
+0002me8j ATERCP0S1Z        DMY   20261016 Wait Eve                       
+0002fe16 ATERCP0S1Z        DMY   20261014 Wait Eve                       
+0002itdw ATERCP0S1Z        DMY   20261015 Wait Eve                       
+0002me8l ATERCP0S20        DMY   20261016 Wait Eve                       
+0002fe18 ATERCP0S20        DMY   20261014 Wait Eve                       
+0002itdy ATERCP0S20        DMY   20261015 Wait Eve                       
+0002fe24 ATERCP0S21        DMY   20261014 Wait Eve                       
+0002me9h ATERCP0S21        DMY   20261016 Wait Eve                       
+0002iteu ATERCP0S21        DMY   20261015 Wait Eve                       
+0002itf1 ATERCP0S22        DMY   20261015 Wait Eve                       
+0002fe2b ATERCP0S22        DMY   20261014 Wait Eve                       
+0002me9o ATERCP0S22        DMY   20261016 Wait Eve                       
+0002me9u ATERCP0S23        DMY   20261016 Wait Eve                       
+0002fe2h ATERCP0S23        DMY   20261014 Wait Eve                       
+0002itf7 ATERCP0S23        DMY   20261015 Wait Eve                       
+0002mec1 ATERCP0S24        DMY   20261016 Post pro OK                    
+0002mec5 ATERCP0S25        DMY   20261016 Wait Eve                       
+0002mef5 ATERCP0S26        DMY   20261016 Wait Eve                       
+0002itkj ATERCP0S26        DMY   20261015 Wait Eve                       
+0002fe7s ATERCP0S26        DMY   20261014 Wait Eve                       
+0002mef1 ATERCP0S27        DMY   20261016 Wait Eve                       
+0002mef2 ATERCP0S28        CMD   20261016 Wait Eve                       
+0002clou ATERCP0S28        CMD   20261013 Wait Eve                       
+0002mee6 ATERCP0S29        DMY   20261016 Wait Eve                 >     
+0002me3m ATERCP0S2A        DMY   20261016 Wait Eve                       
+0002me3s ATERCP0S2B        DMY   20261016 Wait Eve                 >     
+0002me41 ATERCP0S2C        DMY   20261016 Wait Eve                 >     
+0002me49 ATERCP0S2D        CMD   20261016 Wait Eve                       
+0002cldg ATERCP0S2D        CMD   20261013 Wait Eve                       
+0002it9m ATERCP0S2D        CMD   20261015 Wait Eve                       
+0002fdww ATERCP0S2D        CMD   20261014 Wait Eve                       
+0002fdyh ATERCP0S2E        DMY   20261014 Wait Eve                       
+0002itb7 ATERCP0S2E        DMY   20261015 Wait Eve                       
+0002me5u ATERCP0S2E        DMY   20261016 Wait Eve                       
+0002me5v ATERCP0S2F        DMY   20261016 Wait Eve                       
+0002fdyi ATERCP0S2F        DMY   20261014 Wait Eve                       
+0002itb8 ATERCP0S2F        DMY   20261015 Wait Eve                       
+0002fdyp ATERCP0S2G        DMY   20261014 Wait Eve                       
+0002me62 ATERCP0S2G        DMY   20261016 Wait Eve                       
+0002itbf ATERCP0S2G        DMY   20261015 Wait Eve                       
+0002me73 ATERCP0S2H        DMY   20261016 Wait Eve                 >     
+0002fdzq ATERCP0S2H        DMY   20261014 Wait Eve                 >     
+0002fe00 ATERCP0S2I        DMY   20261014 Wait Eve                 >     
+0002me7d ATERCP0S2I        DMY   20261016 Wait Eve                 >     
+0002itcq ATERCP0S2I        DMY   20261015 Wait Eve                 >     
+0002itda ATERCP0S2J        DMY   20261015 Wait Eve                       
+0002me7x ATERCP0S2J        DMY   20261016 Wait Eve                       
+0002fe0k ATERCP0S2J        DMY   20261014 Wait Eve                       
+0002me7y ATERCP0S2K        DMY   20261016 Wait Eve                       
+0002fe0l ATERCP0S2K        DMY   20261014 Wait Eve                       
+0002itdb ATERCP0S2K        DMY   20261015 Wait Eve                       
+0002itdc ATERCP0S2L        DMY   20261015 Wait Eve                       
+0002me7z ATERCP0S2L        DMY   20261016 Wait Eve                       
+0002fe0m ATERCP0S2L        DMY   20261014 Wait Eve                       
+0002fe0o ATERCP0S2M        DMY   20261014 Wait Eve                       
+0002me81 ATERCP0S2M        DMY   20261016 Wait Eve                       
+0002itde ATERCP0S2M        DMY   20261015 Wait Eve                       
+0002me82 ATERCP0S2N        DMY   20261016 Wait Eve                       
+0002itdf ATERCP0S2N        DMY   20261015 Wait Eve                       
+0002fe0p ATERCP0S2N        DMY   20261014 Wait Eve                       
+0002fe0q ATERCP0S2O        DMY   20261014 Wait Eve                       
+0002me83 ATERCP0S2O        DMY   20261016 Wait Eve                       
+0002itdg ATERCP0S2O        DMY   20261015 Wait Eve                       
+0002me98 ATERCP0S2P        DMY   20261016 Wait Eve                       
+0002fe1v ATERCP0S2P        DMY   20261014 Wait Eve                       
+0002itel ATERCP0S2P        DMY   20261015 Wait Eve                       
+0002fe1w ATERCP0S2Q        DMY   20261014 Wait Eve                       
+0002item ATERCP0S2Q        DMY   20261015 Wait Eve                       
+0002me99 ATERCP0S2Q        DMY   20261016 Wait Eve                       
+0002me9d ATERCP0S2R        DMY   20261016 Wait Eve                       
+0002fe20 ATERCP0S2R        DMY   20261014 Wait Eve                       
+0002iteq ATERCP0S2R        DMY   20261015 Wait Eve                       
+0002itex ATERCP0S2S        DMY   20261015 Wait Eve                       
+0002fe27 ATERCP0S2S        DMY   20261014 Wait Eve                       
+0002me9k ATERCP0S2S        DMY   20261016 Wait Eve                       
+0002me9x ATERCP0S2T        DMY   20261016 Wait Eve                       
+0002fe2k ATERCP0S2T        DMY   20261014 Wait Eve                       
+0002itfa ATERCP0S2T        DMY   20261015 Wait Eve                       
+0002meab ATERCP0S2U        DMY   20261016 Wait Eve                       
+0002fe3r ATERCP0S2V        DMY   20261014 Wait Eve                       
+0002meb4 ATERCP0S2V        DMY   20261016 Wait Eve                       
+0002itgh ATERCP0S2V        DMY   20261015 Wait Eve                       
+0002fe5l ATERCP0S2W        DMY   20261014 Wait Eve                       
+0002mecy ATERCP0S2W        DMY   20261016 Wait Eve                       
+0002itic ATERCP0S2W        DMY   20261015 Wait Eve                       
+0002med0 ATERCP0S2X        DMY   20261016 Wait Eve                       
+0002itie ATERCP0S2X        DMY   20261015 Wait Eve                       
+0002fe5n ATERCP0S2X        DMY   20261014 Wait Eve                       
+0002med8 ATERCP0S2Y        DMY   20261016 Wait Eve                       
+0002me3w ATERCP0S2Z        DMY   20261016 Wait Eve                       
+0002fdwj ATERCP0S2Z        DMY   20261014 Wait Eve                       
+0002it99 ATERCP0S2Z        DMY   20261015 Wait Eve                       
+0002me3z ATERCP0S30        DMY   20261016 Wait Eve                 >     
+0002fdwm ATERCP0S30        DMY   20261014 Wait Eve                 >     
+0002it9c ATERCP0S30        DMY   20261015 Wait Eve                 >     
+0002me68 ATERCP0S31        DMY   20261016 Wait Eve                 >     
+0002itbl ATERCP0S31        DMY   20261015 Post pro OK              >     
+0002meag ATERCP0S32        DMY   20261016 Wait Eve                       
+0002meea ATERCP0S33        DMY   20261016 Wait Eve                 >     
+0002itb9 ATERCP0S34        DMY   20261015 Wait Eve                       
+0002me5w ATERCP0S34        DMY   20261016 Wait Eve                       
+0002fdyj ATERCP0S34        DMY   20261014 Wait Eve                       
+0002me6c ATERCP0S35        CMD   20261016 Wait Eve                 >     
+0002meb2 ATERCP0S36        DMY   20261016 Wait Eve                       
+0002me6d ATERCP0S37        DMY   20261016 Wait Eve                 >     
+0002mead ATERCP0S38        DMY   20261016 Wait Eve                       
+0002meeo ATERCP0S39        DMY   20261016 Wait Eve                 >     
+0002fe7b ATERCP0S39        DMY   20261014 Wait Eve                 >     
+0002itk2 ATERCP0S39        DMY   20261015 Wait Eve                 >     
+0002me6h ATERCP0S3A        DMY   20261016 Wait Eve                 >     
+0002meel ATERCP0S3B        DMY   20261016 Wait Eve                       
+0002fe78 ATERCP0S3B        DMY   20261014 Wait Eve                       
+0002itjz ATERCP0S3B        DMY   20261015 Wait Eve                       
+0002me6m ATERCP0S3C        DMY   20261016 Wait Eve                 >     
+0002meeq ATERCP0S3D        DMY   20261016 Wait Eve                 >     
+0002fe7d ATERCP0S3D        DMY   20261014 Wait Eve                 >     
+0002itk4 ATERCP0S3D        DMY   20261015 Wait Eve                 >     
+0002itk6 ATERCP0S3E        DMY   20261015 Wait Eve                 >     
+0002mees ATERCP0S3E        DMY   20261016 Wait Eve                 >     
+0002fe7f ATERCP0S3E        DMY   20261014 Wait Eve                 >     
+0002itk8 ATERCP0S3F        DMY   20261015 Wait Eve                 >     
+0002meeu ATERCP0S3F        DMY   20261016 Wait Eve                 >     
+0002fe7h ATERCP0S3F        DMY   20261014 Wait Eve                 >     
+0002meeg ATERCP0S3G        DMY   20261016 Wait Eve                 >     
+0002it97 ATERCP0S3H        DMY   20261015 Wait Eve                 >     
+0002fdwh ATERCP0S3H        DMY   20261014 Wait Eve                 >     
+0002me3u ATERCP0S3H        DMY   20261016 Wait Eve                 >     
+0002meex ATERCP0S3I        DMY   20261016 Wait Eve                       
+0002fe7k ATERCP0S3I        DMY   20261014 Wait Eve                       
+0002itkb ATERCP0S3I        DMY   20261015 Wait Eve                       
+0002me4l ATERCP0S3J        DMY   20261016 Wait Eve                 >     
+0002me8w ATERCP0S3K        DMY   20261016 Wait Eve                 >     
+0002fe1j ATERCP0S3K        DMY   20261014 Wait Eve                 >     
+0002ite9 ATERCP0S3K        DMY   20261015 Wait Eve                 >     
+0002fe4u ATERCP0S3L        CMD   20261014 Wait Eve                       
+0002clm2 ATERCP0S3L        CMD   20261013 Wait Eve                       
+0002mec7 ATERCP0S3L        CMD   20261016 Wait Eve                       
+0002mecc ATERTP0000        CMD   20261016 Executin        0200     1900  
+0002me9e ATERTP0001        CMD   20261016 Executin        0200     1900  
+0002me9l ATERTP0003        CMD   20261016 Executin        0200     1900  
+0002me9r ATERTP0004        CMD   20261016 Executin        0200     1900  
+0002me9v ATERTP0005        CMD   20261016 Executin        0200     1900  
+0002mef3 ATERTP0006        CMD   20261016 Wait Tim OK     0200     1900  
+0002me85 ATERTP0007        CMD   20261016 Executin        0200     1900  
+0002me4b ATERTP0008        CMD   20261016 Wait Tim OK     0200     1900  
+0002me4f ATERTP0009        CMD   20261016 Wait Tim OK     0200     1900  
+0002meey ATERTP000A        CMD   20261016 Executin        0200     1900  
+0002meb9 ATERTP000B        CMD   20261016 Wait Tim OK     0200     1900  
+0002mebb ATERTP000C        CMD   20261016 Post pro OK     0200     1900  
+0002mee1 ATERTP000D        CMD   20261016 Executin        0200     1900  
+0002me43 ATERTP000E        CMD   20261016 Wait Tim OK     0200     1900  
+0002mebe ATERTP000F        CMD   20261016 Executin        0200     1900  
+0002me3q ATERTP000G        CMD   20261016 Wait Tim OK     0200     1900  
+0002me50 ATERTP000H        CMD   20261016 Executin        0200     1900  
+0002me9a ATERTP000I        CMD   20261016 Executin        0200     1900  
+0002me9y ATERTP000J        CMD   20261016 Executin        0200     1900  
+0002meco ATERTP000K        CMD   20261016 Executin        0200     1900  
+0002mecs ATERTP000L        CMD   20261016 Executin        0200     1900  
+0002meej ATERTP000M        CMD   20261016 Wait Tim OK     0200     1900  
+0002mec2 ATERTP000N        CMD   20261016 Post pro OK     0200     1900  
+0002me66 ATERTP000O        CMD   20261016 Executin        0200     1900  
+0002mea2 ATERTP000P        CMD   20261016 Executin        0200     1900  
+0002mea6 ATERTP000Q        CMD   20261016 Executin        0200     1900  
+0002meb6 ATERTP000R        CMD   20261016 Post pro OK     0200     1900  
+0002mebj ATERTP000S        CMD   20261016 Executin        0200     1900  
+0002mebm ATERTP000T        CMD   20261016 Executin        0200     1900  
+0002mebq ATERTP000U        CMD   20261016 Executin        0200     1900  
+0002meby ATERTP000V        CMD   20261016 Executin        0200     1900  
+0002medp ATERTP000W        CMD   20261016 Executin        0200     1900  
+0002me4v ATERTP000X        CMD   20261016 Executin        0200     1900  
+0002medw ATERTP000Y        CMD   20261016 Executin        0200     1900  
+0002mef6 ATERTP000Z        CMD   20261016 Post pro OK     0200     1900  
+0002me56 ATERTP0010        CMD   20261016 Executin        0200     1900  
+0002me5a ATERTP0011        CMD   20261016 Executin        0200     1900  
+0002me5i ATERTP0012        CMD   20261016 Executin        0200     1900  
+0002me5m ATERTP0013        CMD   20261016 Executin        0200     1900  
+0002me5x ATERTP0015        CMD   20261016 Wait Tim OK     0200     1900  
+0002me5r ATERTP0016        CMD   20261016 Executin        0200     1900  
+0002me60 ATERTP0017        CMD   20261016 Wait Tim OK     0200     1900  
+0002me63 ATERTP0018        CMD   20261016 Executin        0200     1900  
+0002me76 ATERTP0019        CMD   20261016 Executin        0200     1900  
+0002me4i ATERTP001A        CMD   20261016 Executin        0200     1900  
+0002me7a ATERTP001B        CMD   20261016 Wait Tim OK     0200     1900  
+0002me7j ATERTP001C        CMD   20261016 Wait Tim OK     0200     1900  
+0002me7f ATERTP001D        CMD   20261016 Executin        0200     1900  
+0002me7h ATERTP001E        CMD   20261016 Executin        0200     1900  
+0002me7n ATERTP001F        CMD   20261016 Executin        0200     1900  
+0002me7p ATERTP001G        CMD   20261016 Wait Tim OK     0200     1900  
+0002me7r ATERTP001H        CMD   20261016 Executin        0200     1900  
+0002me7t ATERTP001I        CMD   20261016 Wait Tim OK     0200     1900  
+0002me7v ATERTP001J        CMD   20261016 Wait Tim OK     0200     1900  
+0002me7l ATERTP001K        CMD   20261016 Executin        0200     1900  
+0002me89 ATERTP001L        CMD   20261016 Wait Tim OK     0200     1900  
+0002me8b ATERTP001M        CMD   20261016 Executin        0200     1900  
+0002me8d ATERTP001N        CMD   20261016 Wait Tim OK     0200     1900  
+0002me8g ATERTP001O        CMD   20261016 Wait Tim OK     0200     1900  
+0002me8n ATERTP001P        CMD   20261016 Executin        0200     1900  
+0002me8p ATERTP001Q        CMD   20261016 Wait Tim OK     0200     1900  
+0002me9i ATERTP001R        CMD   20261016 Executin        0200     1900  
+0002meeh ATERTP001S        CMD   20261016 Executin        0200     1900  
+0002mee3 ATERTP001T        CMD   20261016 Executin        0200     1900  
+0002meed ATERTP001U        CMD   20261016 Wait Tim OK     0200     1900  
+0002meeb ATERTP001V        CMD   20261016 Executin        0200     1900  
+0002me96 ATERTP001W        CMD   20261016 Executin        0200     1900  
+0002me8y ATERTP001X        CMD   20261016 Executin        0200     1900  
+0002me92 ATERTP001Y        CMD   20261016 Executin        0200     1900  
+0002meca ATERTP0020        CMD   20261016 Post pro OK     0200     1900  
+0002mebv ATERTP0021        CMD   20261016 Wait Tim OK     0200     1900  
+0002me8u ATERTP0022        CMD   20261016 Executin        0200     1900  
+0002mece ATERTP0023        CMD   20261016 Wait Tim OK     0200     1900  
+0002meck ATERTP0024        CMD   20261016 Wait Tim OK     0200     1900  
+0002me46 ATERTP0025        CMD   20261016 Executin        0200     1900  
+0002mecg ATERTP0026        CMD   20261016 Wait Tim OK     0200     1900  
+0002mecm ATERTP0027        CMD   20261016 Executin        0200     1900  
+0002mecv ATERTP0028        CMD   20261016 Executin        0200     1900  
+0002med1 ATERTP0029        CMD   20261016 Executin        0200     1900  
+0002me4m ATERTP002A        CMD   20261016 Executin        0200     1900  
+0002medl ATERTP002B        CMD   20261016 Executin        0200     1900  
+0002me6v ATERTP002C        CMD   20261016 Executin        0200     1900  
+0002med5 ATERTP002D        CMD   20261016 Executin        0200     1900  
+0002me6y ATERTP002E        CMD   20261016 Executin        0200     1900  
+0002med9 ATERTP002F        CMD   20261016 Wait Tim OK     0200     1900  
+0002medd ATERTP002G        CMD   20261016 Wait Tim OK     0200     1900  
+0002medg ATERTP002H        CMD   20261016 Executin        0200     1900  
+0002mee7 ATERTP002I        CMD   20261016 Executin        0200     1900  
+0002me71 ATERTP002J        CMD   20261016 Wait Tim OK     0200     1900  
+0002me6r ATERTP002K        CMD   20261016 Wait Tim OK     0200     1900  
+0002me6a ATERTP002L        CMD   20261016 Wait Tim OK     0200     1900  
+0002me6f ATERTP002M        CMD   20261016 Wait Tim OK     0200     1900  
+0002me6j ATERTP002N        CMD   20261016 Wait Tim OK     0200     1900  
+0002me6o ATERTP002O        CMD   20261016 Wait Tim OK     0200     1900  
+0002mefb ATERTP002P        CMD   20261016 Wait Tim OK     0200     1900  
+0002ck30 ATERTP002Q        CMD   20261013 Wait Tim OK     0200     1900  
+0002mefc ATERTP002R        CMD   20261016 Wait Tim OK     0200     1900  
+000132rw TEST_IMPETUS_RI_1 CMD   20260924 Executin                        Hold
+0002mo1v TEST_IMPETUS_RI_1 CMD   20261016 Post pro OK                    
+0002mo2k TEST_IMPETUS_RI_1 CMD   20261016 Post pro OK                    
+0002mo2u TEST_IMPETUS_RI_1 CMD   20261016 Post pro OK                    
+0002mo34 TEST_IMPETUS_RI_1 CMD   20261016 Post pro OK                    
+0002mo3e TEST_IMPETUS_RI_2 CMD   20261016 Post pro OK                    
+0002mo3j TEST_IMPETUS_RI_3 CMD   20261016 Post pro OK                    
+0002mo3o TEST_IMPETUS_RI_4 CMD   20261016 Post pro OK                    
+0002mo3t TEST_IMPETUS_RI_5 CMD   20261016 Post pro OK                    
+0002mo3y TEST_IMPETUS_RI_6 CMD   20261016 Post pro OK                    
+0002mo43 TEST_IMPETUS_RI_7 CMD   20261016 Post pro OK                    
+0002mo4d TEST_IMPETUS_RI_8 CMD   20261016 Post pro OK                    
+0002mo4i TEST_IMPETUS_RI_9 CMD   20261016 Post pro OK 

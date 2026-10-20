@@ -1,0 +1,10 @@
+Factura N° 1234
+Fecha: 15 de octubre de 2026
+Proveedor: Ferretería El Tornillo
+NIT: 900.123.456-7
+
+2 martillos a $25.000 c/u
+3 cajas de puntillas a $8.000 c/u
+1 metro de cinta a $12.000
+
+Total: $86.000

@@ -1,0 +1,8 @@
+instructor[google-genai]
+pydantic
+pydantic-ai-slim[google]
+google-genai
+fastapi
+uvicorn
+jinja2
+python-multipart

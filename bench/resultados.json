@@ -1,0 +1,35 @@
+{
+  "instructor": {
+    "exito_%": 100.0,
+    "intentos_prom": 1,
+    "tokens_prom": 2141,
+    "tiempo_prom_s": 13.74,
+    "problemas_detectados": [
+      2,
+      2,
+      2
+    ]
+  },
+  "nativo": {
+    "exito_%": 100.0,
+    "intentos_prom": 1,
+    "tokens_prom": 2180,
+    "tiempo_prom_s": 16.19,
+    "problemas_detectados": [
+      3,
+      2,
+      2
+    ]
+  },
+  "pydantic_ai": {
+    "exito_%": 100.0,
+    "intentos_prom": 1,
+    "tokens_prom": 2153,
+    "tiempo_prom_s": 13.7,
+    "problemas_detectados": [
+      2,
+      2,
+      2
+    ]
+  }
+}
